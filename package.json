@@ -1,0 +1,25 @@
+{
+  "name": "sixverticalgroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pacwest-scripts.js",
+  "scripts": {
+    "mini": "uglifyjs src/pacwest-scripts.js --compress --mangle --output  dist/pacwest-scripts.min.js && css-minify --file src/pacwest-styles.css --output dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Six-Vertical/pacwest-site.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Six-Vertical/pacwest-site/issues"
+  },
+  "homepage": "https://github.com/Six-Vertical/pacwest-site#readme",
+  "dependencies": {
+    "uglify-js": "^3.14.5"
+  },
+  "devDependencies": {
+    "css-minify": "^2.0.0"
+  }
+}
